@@ -1,14 +1,12 @@
 # Create Alpine App
 
-Create an Alpine application in a single command.
+Create an [Alpine](https://alpinejs.dev) and [Tailwind](https://tailwindcss.com) app in a single command with hot reload 🔥
 
 ```bash
 npx create-alpine-app my-app
 ```
 
 ![Create Alpine App Screenshot](https://cdn.devdojo.com/images/june2023/create-react-app.jpeg)
-
-A starter app for [Alpine](https://alpinejs.dev) and [Tailwind](https://tailwindcss.com), with hot reloading via the [Vite](https://vitejs.dev/) bundler 🕺
 
 The **Create Alpine App** package is similar to [Create React App](https://create-react-app.dev/), except it's for **Alpine**. 
 
