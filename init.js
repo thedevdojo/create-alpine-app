@@ -13,7 +13,6 @@ fs.readFile(__dirname + '/package.json', 'utf8', (err, data) => {
     updatedJSON = JSON.stringify(object, null, 2);
 
     if(updatedJSON !== null) {
-      console.log('writing');
       fs.writeFile(__dirname + '/package.json', updatedJSON, err => {
         if (err) {
           console.error(err);
