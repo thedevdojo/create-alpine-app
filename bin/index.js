@@ -21,6 +21,7 @@ const installDepsCommand = `cd ${repoName} && npm install && node init.js`;
 
 console. log(`Cloning the repository with name ${repoName}`);
 const checkedOut = runCommand (gitCheckoutCommand);
+const installCmd = runCommand (installDepsCommand);
 
 if(!checkedOut) process.exit(1);
 
