@@ -1,6 +1,6 @@
 {
   "name": "create-alpine-app",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "bin": {
     "create-alpine-app": "bin/index.js"
   },
