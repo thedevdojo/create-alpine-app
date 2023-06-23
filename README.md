@@ -18,6 +18,10 @@ npm run dev
 
 Now, you can edit the `index.html` file in the root directory. Alpine is loaded in the `index.js`, and Tailwind is loaded in the `index.css` file. Hot Reloading Enabled 🔥
 
+## Hot Reloading
+
+You can update the directory or file type that you want the watcher to look for inside of the **handleHotUpdate** method inside of **alpine-vite-plugin.js**.
+
 ## Building for production
 
 If you want to distribute this application, you can run:
