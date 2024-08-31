@@ -36,7 +36,7 @@ If you want to distribute this application, you can run:
 npm run build
 ```
 
-And you're application will be built inside of the `/dist` folder.
+And your application will be built inside of the `/dist` folder.
 
 ## Contributing
 
